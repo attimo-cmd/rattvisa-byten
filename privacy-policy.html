@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sekretesspolicy | Rättvisa Byten</title>
+  <title>Sekretesspolicy | Allenatore</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -20,6 +20,12 @@
     }
     header h1 { font-size: 1.6rem; font-weight: 700; }
     header p  { color: #6e6e73; font-size: 0.9rem; margin-top: 4px; }
+    .rename-note {
+      color: #6e6e73;
+      font-size: 0.85rem;
+      margin-top: 6px;
+      font-style: italic;
+    }
     main {
       max-width: 720px;
       margin: 40px auto;
@@ -34,7 +40,7 @@
       margin: 32px 0 10px;
       color: #1d1d1f;
     }
-    h2:first-child { margin-top: 0; }
+    h2:first-of-type { margin-top: 0; }
     p  { color: #3a3a3c; margin-bottom: 12px; }
     ul { padding-left: 20px; color: #3a3a3c; margin-bottom: 12px; }
     li { margin-bottom: 6px; }
@@ -62,8 +68,9 @@
 <body>
 
 <header>
-  <h1>Rättvisa Byten</h1>
+  <h1>Allenatore</h1>
   <p>Sekretesspolicy</p>
+  <p class="rename-note">Tidigare Rättvisa Byten — samma app, samma sekretessprinciper</p>
 </header>
 
 <main>
@@ -71,8 +78,8 @@
 
   <h2>Sammanfattning</h2>
   <p>
-    Rättvisa Byten samlar inte in, lagrar eller delar någon personlig information.
-    All data du matar in i appen (lagnamn, spelarnamn och matchresultat) sparas
+    Allenatore samlar inte in, lagrar eller delar någon personlig information.
+    All data du matar in i appen (lagnamn, spelarnamn, matchresultat och bytesscheman) sparas
     enbart lokalt på din enhet och lämnar aldrig din iPhone eller iPad.
   </p>
 
@@ -81,18 +88,37 @@
   <ul>
     <li>Lagnamn och spelarnamn</li>
     <li>Matchresultat och bytesscheman</li>
-    <li>Inställningar för spelformat</li>
+    <li>Inställningar för spelformat (5v5, 7v7, 9v9, 11v11)</li>
+    <li>Anteckningar om spelare, skador och utvisningar</li>
+    <li>Mål, assist och kort under matcher</li>
   </ul>
   <p>
     All denna information lagras uteslutande i appens lokala databas på din enhet
-    (via SwiftData / iCloud-konto om du aktiverat iCloud-säkerhetskopiering i iOS).
+    (via SwiftData). Om du har aktiverat iCloud-säkerhetskopiering i iOS synkas data
+    privat till ditt eget iCloud-konto — inte till oss eller någon tredje part.
   </p>
 
   <h2>Delas data med tredje part?</h2>
   <p>
     Nej. Vi skickar ingen data till externa servrar, annonsnätverk, analysverktyg
-    eller andra tredje parter. Appen har ingen nätverksanslutning och ingen
-    inloggningsfunktion.
+    eller andra tredje parter. Appen har ingen inloggningsfunktion och kräver inget
+    konto. All synkronisering mellan dina enheter sker via Apples privata iCloud-
+    infrastruktur som inte är åtkomlig för oss.
+  </p>
+
+  <h2>Köp i appen (Pro)</h2>
+  <p>
+    Allenatore Pro hanteras av Apples App Store. När du köper Pro skickas
+    information om transaktionen mellan din enhet och Apple — vi får aldrig
+    tillgång till några betaluppgifter eller din identitet. Vi får endast en
+    anonym kvittokod som verifierar att du har en aktiv prenumeration.
+  </p>
+
+  <h2>Apple Watch och Live Activities</h2>
+  <p>
+    Om du använder Allenatore på Apple Watch eller Live Activities på låsskärmen
+    skickas matchstatus mellan dina egna enheter via Apples WatchConnectivity och
+    ActivityKit. Inget skickas till våra servrar.
   </p>
 
   <h2>Annonser och spårning</h2>
@@ -124,7 +150,7 @@
 </main>
 
 <footer>
-  Senast uppdaterad: maj 2025 &nbsp;·&nbsp; Rättvisa Byten
+  Senast uppdaterad: maj 2026 &nbsp;·&nbsp; Allenatore (tidigare Rättvisa Byten) &nbsp;·&nbsp; Attimo AB
 </footer>
 
 </body>
